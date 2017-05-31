@@ -2,33 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8d915b9-60e0-4579-9340-9b5948207ff5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FxClient/target/classes/FirstController$1$1.class" afterPath="$PROJECT_DIR$/FxClient/target/classes/FirstController$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FxClient/target/classes/WarehouseWindowController$1.class" afterPath="$PROJECT_DIR$/FxClient/target/classes/WarehouseWindowController$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FxClient/target/classes/WarehouseWindowController$2.class" afterPath="$PROJECT_DIR$/FxClient/target/classes/WarehouseWindowController$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FxClient/target/classes/WarehouseWindowController.class" afterPath="$PROJECT_DIR$/FxClient/target/classes/WarehouseWindowController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/target/InternetShop.war" afterPath="$PROJECT_DIR$/s2/target/InternetShop.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/target/InternetShop/WEB-INF/classes/controller/ShopRestController.class" afterPath="$PROJECT_DIR$/s2/target/InternetShop/WEB-INF/classes/controller/ShopRestController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/target/InternetShop/WEB-INF/classes/service/ProductsOnWarehouseService.class" afterPath="$PROJECT_DIR$/s2/target/InternetShop/WEB-INF/classes/service/ProductsOnWarehouseService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/target/InternetShop/WEB-INF/classes/service/impl/PriductsOnWarehouseServiceImpl.class" afterPath="$PROJECT_DIR$/s2/target/InternetShop/WEB-INF/classes/service/impl/PriductsOnWarehouseServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/target/classes/controller/ShopRestController.class" afterPath="$PROJECT_DIR$/s2/target/classes/controller/ShopRestController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/target/classes/service/ProductsOnWarehouseService.class" afterPath="$PROJECT_DIR$/s2/target/classes/service/ProductsOnWarehouseService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/target/classes/service/impl/PriductsOnWarehouseServiceImpl.class" afterPath="$PROJECT_DIR$/s2/target/classes/service/impl/PriductsOnWarehouseServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FxClient/target/classes/FirstController.class" afterPath="$PROJECT_DIR$/FxClient/target/classes/FirstController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/target/InternetShop/WEB-INF/classes/controller/IndexController.class" afterPath="$PROJECT_DIR$/s2/target/InternetShop/WEB-INF/classes/controller/IndexController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/target/InternetShop/WEB-INF/classes/model/ProductInOrder.class" afterPath="$PROJECT_DIR$/s2/target/InternetShop/WEB-INF/classes/model/ProductInOrder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/target/InternetShop/WEB-INF/classes/model/User.class" afterPath="$PROJECT_DIR$/s2/target/InternetShop/WEB-INF/classes/model/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/target/InternetShop/WEB-INF/classes/repository/ProductOnWarehousesRepository.class" afterPath="$PROJECT_DIR$/s2/target/InternetShop/WEB-INF/classes/repository/ProductOnWarehousesRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/target/classes/controller/IndexController.class" afterPath="$PROJECT_DIR$/s2/target/classes/controller/IndexController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/target/classes/model/ProductInOrder.class" afterPath="$PROJECT_DIR$/s2/target/classes/model/ProductInOrder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/target/classes/model/User.class" afterPath="$PROJECT_DIR$/s2/target/classes/model/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/target/classes/repository/ProductOnWarehousesRepository.class" afterPath="$PROJECT_DIR$/s2/target/classes/repository/ProductOnWarehousesRepository.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FxClient/src/main/java/FirstController.java" afterPath="$PROJECT_DIR$/FxClient/src/main/java/FirstController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FxClient/src/main/java/WarehouseWindowController.java" afterPath="$PROJECT_DIR$/FxClient/src/main/java/WarehouseWindowController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FxClient/src/main/resources/fxml/currentWarehouse.fxml" afterPath="$PROJECT_DIR$/FxClient/src/main/resources/fxml/currentWarehouse.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FxClient/src/main/resources/fxml/warehouses.fxml" afterPath="$PROJECT_DIR$/FxClient/src/main/resources/fxml/warehouses.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FxClient/target/classes/fxml/currentWarehouse.fxml" afterPath="$PROJECT_DIR$/FxClient/target/classes/fxml/currentWarehouse.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/src/main/java/controller/IndexController.java" afterPath="$PROJECT_DIR$/s2/src/main/java/controller/IndexController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/src/main/java/controller/ShopRestController.java" afterPath="$PROJECT_DIR$/s2/src/main/java/controller/ShopRestController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/src/main/java/model/ProductInOrder.java" afterPath="$PROJECT_DIR$/s2/src/main/java/model/ProductInOrder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/src/main/java/model/User.java" afterPath="$PROJECT_DIR$/s2/src/main/java/model/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/src/main/java/repository/ProductOnWarehousesRepository.java" afterPath="$PROJECT_DIR$/s2/src/main/java/repository/ProductOnWarehousesRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/src/main/java/service/ProductsOnWarehouseService.java" afterPath="$PROJECT_DIR$/s2/src/main/java/service/ProductsOnWarehouseService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/src/main/java/service/impl/PriductsOnWarehouseServiceImpl.java" afterPath="$PROJECT_DIR$/s2/src/main/java/service/impl/PriductsOnWarehouseServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/src/main/webapp/WEB-INF/persistence-config.xml" afterPath="$PROJECT_DIR$/s2/src/main/webapp/WEB-INF/persistence-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/target/InternetShop/META-INF/maven/InternetShop/s2/pom.properties" afterPath="$PROJECT_DIR$/s2/target/InternetShop/META-INF/maven/InternetShop/s2/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/s2/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FxClient/target/classes/fxml/warehouses.fxml" afterPath="$PROJECT_DIR$/FxClient/target/classes/fxml/warehouses.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/target/InternetShop/WEB-INF/persistence-config.xml" afterPath="$PROJECT_DIR$/s2/target/InternetShop/WEB-INF/persistence-config.xml" />
     </list>
     <ignored path="InternetShop.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -77,7 +62,7 @@
       <file leaf-file-name="OrdersController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FxClient/src/main/java/OrdersController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
+            <state relative-caret-position="-68">
               <caret line="125" column="71" selection-start-line="125" selection-start-column="71" selection-end-line="125" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -1414,7 +1399,7 @@
       <workItem from="1496132626756" duration="3167000" />
       <workItem from="1496137001839" duration="4597000" />
       <workItem from="1496159098306" duration="5446000" />
-      <workItem from="1496177341149" duration="12190000" />
+      <workItem from="1496177341149" duration="12387000" />
     </task>
     <task id="LOCAL-00001" summary="Осталась валидация, небольшой функционал админки и красоту навести">
       <created>1494805396259</created>
@@ -1423,15 +1408,22 @@
       <option name="project" value="LOCAL" />
       <updated>1494805396259</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add orders">
+      <created>1496189601989</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1496189601989</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="285604000" />
+    <option name="totallyTimeSpent" value="285801000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1453,7 +1445,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33224222" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23373677" sideWeight="0.4902507" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23373677" sideWeight="0.4902507" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852808" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22382398" sideWeight="0.5097493" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1479,7 +1471,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Осталась валидация, небольшой функционал админки и красоту навести" />
-    <option name="LAST_COMMIT_MESSAGE" value="Осталась валидация, небольшой функционал админки и красоту навести" />
+    <MESSAGE value="Add orders" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add orders" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1988,7 +1981,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FxClient/src/main/java/OrdersController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="-68">
           <caret line="125" column="71" selection-start-line="125" selection-start-column="71" selection-end-line="125" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
