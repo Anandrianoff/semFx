@@ -84,7 +84,7 @@ public class FirstController {
                                     warehouseWindowController.loadProducts();
                                     warehouseWindowController.setLabel(s.toString());
                                     warehouseWindowController.setWarehouses(items);
-                                    Scene scene = new Scene(root,500,400);
+                                    Scene scene = new Scene(root,500,500);
                                     st.setScene(scene);
                                     st.show();
                                 } catch (IOException e) {
@@ -99,5 +99,21 @@ public class FirstController {
             }
         });
     }
+
+    public void getOrdersWindow(){
+        Stage st = new Stage();
+        FXMLLoader loader = new FXMLLoader();
+        try {
+            Pane root = loader.load(getClass().getResource("fxml/orders.fxml").openStream());
+            OrdersController ordersController = (OrdersController)loader.getController();
+            ordersController.loadOrders();
+            Scene scene = new Scene(root,500,500);
+            st.setScene(scene);
+            st.show();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
 
 }

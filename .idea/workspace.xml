@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8d915b9-60e0-4579-9340-9b5948207ff5" name="Default" comment="" />
+    <list default="true" id="a8d915b9-60e0-4579-9340-9b5948207ff5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FxClient/target/classes/FirstController$1$1.class" afterPath="$PROJECT_DIR$/FxClient/target/classes/FirstController$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FxClient/target/classes/WarehouseWindowController$1.class" afterPath="$PROJECT_DIR$/FxClient/target/classes/WarehouseWindowController$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FxClient/target/classes/WarehouseWindowController$2.class" afterPath="$PROJECT_DIR$/FxClient/target/classes/WarehouseWindowController$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FxClient/target/classes/WarehouseWindowController.class" afterPath="$PROJECT_DIR$/FxClient/target/classes/WarehouseWindowController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/target/InternetShop.war" afterPath="$PROJECT_DIR$/s2/target/InternetShop.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/target/InternetShop/WEB-INF/classes/controller/ShopRestController.class" afterPath="$PROJECT_DIR$/s2/target/InternetShop/WEB-INF/classes/controller/ShopRestController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/target/InternetShop/WEB-INF/classes/service/ProductsOnWarehouseService.class" afterPath="$PROJECT_DIR$/s2/target/InternetShop/WEB-INF/classes/service/ProductsOnWarehouseService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/target/InternetShop/WEB-INF/classes/service/impl/PriductsOnWarehouseServiceImpl.class" afterPath="$PROJECT_DIR$/s2/target/InternetShop/WEB-INF/classes/service/impl/PriductsOnWarehouseServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/target/classes/controller/ShopRestController.class" afterPath="$PROJECT_DIR$/s2/target/classes/controller/ShopRestController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/target/classes/service/ProductsOnWarehouseService.class" afterPath="$PROJECT_DIR$/s2/target/classes/service/ProductsOnWarehouseService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/target/classes/service/impl/PriductsOnWarehouseServiceImpl.class" afterPath="$PROJECT_DIR$/s2/target/classes/service/impl/PriductsOnWarehouseServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FxClient/src/main/java/FirstController.java" afterPath="$PROJECT_DIR$/FxClient/src/main/java/FirstController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FxClient/src/main/java/WarehouseWindowController.java" afterPath="$PROJECT_DIR$/FxClient/src/main/java/WarehouseWindowController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FxClient/src/main/resources/fxml/currentWarehouse.fxml" afterPath="$PROJECT_DIR$/FxClient/src/main/resources/fxml/currentWarehouse.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FxClient/src/main/resources/fxml/warehouses.fxml" afterPath="$PROJECT_DIR$/FxClient/src/main/resources/fxml/warehouses.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FxClient/target/classes/fxml/currentWarehouse.fxml" afterPath="$PROJECT_DIR$/FxClient/target/classes/fxml/currentWarehouse.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/src/main/java/controller/IndexController.java" afterPath="$PROJECT_DIR$/s2/src/main/java/controller/IndexController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/src/main/java/controller/ShopRestController.java" afterPath="$PROJECT_DIR$/s2/src/main/java/controller/ShopRestController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/src/main/java/model/ProductInOrder.java" afterPath="$PROJECT_DIR$/s2/src/main/java/model/ProductInOrder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/src/main/java/model/User.java" afterPath="$PROJECT_DIR$/s2/src/main/java/model/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/src/main/java/repository/ProductOnWarehousesRepository.java" afterPath="$PROJECT_DIR$/s2/src/main/java/repository/ProductOnWarehousesRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/src/main/java/service/ProductsOnWarehouseService.java" afterPath="$PROJECT_DIR$/s2/src/main/java/service/ProductsOnWarehouseService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/src/main/java/service/impl/PriductsOnWarehouseServiceImpl.java" afterPath="$PROJECT_DIR$/s2/src/main/java/service/impl/PriductsOnWarehouseServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/src/main/webapp/WEB-INF/persistence-config.xml" afterPath="$PROJECT_DIR$/s2/src/main/webapp/WEB-INF/persistence-config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/target/InternetShop/META-INF/maven/InternetShop/s2/pom.properties" afterPath="$PROJECT_DIR$/s2/target/InternetShop/META-INF/maven/InternetShop/s2/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/s2/target/maven-archiver/pom.properties" />
+    </list>
     <ignored path="InternetShop.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -34,11 +62,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WarehouseWindowController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WarehouseWindowController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FxClient/src/main/java/WarehouseWindowController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="73" column="33" selection-start-line="73" selection-start-column="33" selection-end-line="73" selection-end-column="33" />
+            <state relative-caret-position="170">
+              <caret line="197" column="13" selection-start-line="189" selection-start-column="12" selection-end-line="197" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,24 +74,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShopRestController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/s2/src/main/java/controller/ShopRestController.java">
+      <file leaf-file-name="OrdersController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FxClient/src/main/java/OrdersController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="53" column="25" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+            <state relative-caret-position="85">
+              <caret line="125" column="71" selection-start-line="125" selection-start-column="71" selection-end-line="125" selection-end-column="71" />
               <folding>
-                <element signature="e#1051#1052#0" expanded="true" />
-                <element signature="e#1109#1110#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#3311#3318#0" expanded="true" />
+                <element signature="e#3809#3818#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="currentWarehouse.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FxClient/src/main/resources/fxml/currentWarehouse.fxml">
+      <file leaf-file-name="FirstController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FxClient/src/main/java/FirstController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+            <state relative-caret-position="55">
+              <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="orders.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FxClient/src/main/resources/fxml/orders.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -72,41 +111,68 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductsRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/s2/src/main/java/repository/ProductsRepository.java">
+      <file leaf-file-name="Order.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FxClient/src/main/java/pojo/Order.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            <state relative-caret-position="357">
+              <caret line="47" column="9" selection-start-line="35" selection-start-column="8" selection-end-line="47" selection-end-column="9" />
+              <folding>
+                <element signature="e#245#246#0" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
+                <element signature="e#304#305#0" expanded="true" />
+                <element signature="e#332#333#0" expanded="true" />
+                <element signature="e#374#375#0" expanded="true" />
+                <element signature="e#405#406#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductsOnWarehouses.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/s2/src/main/java/model/ProductsOnWarehouses.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-312">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductOnWarehousesRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/s2/src/main/java/repository/ProductOnWarehousesRepository.java">
+      <file leaf-file-name="Product.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/s2/src/main/java/model/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="-261">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FirstController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FxClient/src/main/java/FirstController.java">
+      <file leaf-file-name="Warehouse.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/s2/src/main/java/model/Warehouse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+            <state relative-caret-position="43">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="ShopRestController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/s2/src/main/java/controller/ShopRestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+            <state relative-caret-position="88">
+              <caret line="84" column="47" selection-start-line="84" selection-start-column="35" selection-end-line="84" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/s2/src/main/java/service/OrderService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -118,11 +184,11 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="Enum" />
         <option value="Jsp File" />
         <option value="Aspect" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -137,15 +203,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/repository/UserRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/product/product.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/service/ProductService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/impl/ProductServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Account/myOrders.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/form/RemoveUserForm.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/AccountController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/form/AddProductForm.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/orders.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/users.jsp" />
@@ -170,11 +227,9 @@
         <option value="$PROJECT_DIR$/FxClient/pom.xml" />
         <option value="$PROJECT_DIR$/FxClient/src/main/resources/fxml/warehouses.xml" />
         <option value="$PROJECT_DIR$/FxClient/src/main/java/MainApp.java" />
-        <option value="$PROJECT_DIR$/FxClient/src/main/resources/fxml/warehouses.fxml" />
         <option value="$PROJECT_DIR$/FxClient/src/main/java/pojo/Warehouse.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/ProductController.java" />
         <option value="$PROJECT_DIR$/FxClient/src/main/java/pojo/Product.java" />
-        <option value="$PROJECT_DIR$/FxClient/src/main/java/FirstController.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/ProductsOnWarehouseService.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/ShopRestController.java" />
         <option value="$PROJECT_DIR$/src/main/java/repository/ProductOnWarehousesRepository.java" />
@@ -183,11 +238,22 @@
         <option value="$PROJECT_DIR$/s2/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/s2/src/main/java/service/impl/WarehouseService.java" />
-        <option value="$PROJECT_DIR$/s2/src/main/java/repository/ProductOnWarehousesRepository.java" />
-        <option value="$PROJECT_DIR$/s2/src/main/java/service/impl/PriductsOnWarehouseServiceImpl.java" />
-        <option value="$PROJECT_DIR$/s2/src/main/java/controller/ShopRestController.java" />
         <option value="$PROJECT_DIR$/FxClient/src/main/resources/fxml/currentWarehouse.fxml" />
+        <option value="$PROJECT_DIR$/s2/src/main/java/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/s2/src/main/java/repository/ProductOnWarehousesRepository.java" />
+        <option value="$PROJECT_DIR$/s2/src/main/java/service/ProductsOnWarehouseService.java" />
+        <option value="$PROJECT_DIR$/s2/src/main/java/service/impl/PriductsOnWarehouseServiceImpl.java" />
+        <option value="$PROJECT_DIR$/s2/src/main/webapp/WEB-INF/persistence-config.xml" />
+        <option value="$PROJECT_DIR$/FxClient/src/main/resources/fxml/warehouses.fxml" />
+        <option value="$PROJECT_DIR$/FxClient/src/main/java/FirstController.java" />
+        <option value="$PROJECT_DIR$/s2/src/main/java/model/ProductInOrder.java" />
+        <option value="$PROJECT_DIR$/s2/src/main/java/model/User.java" />
+        <option value="$PROJECT_DIR$/FxClient/src/main/java/pojo/OrderStatuses.java" />
+        <option value="$PROJECT_DIR$/FxClient/src/main/java/pojo/Order.java" />
         <option value="$PROJECT_DIR$/FxClient/src/main/java/WarehouseWindowController.java" />
+        <option value="$PROJECT_DIR$/s2/src/main/java/controller/ShopRestController.java" />
+        <option value="$PROJECT_DIR$/FxClient/src/main/resources/fxml/orders.fxml" />
+        <option value="$PROJECT_DIR$/FxClient/src/main/java/OrdersController.java" />
       </list>
     </option>
   </component>
@@ -302,8 +368,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -333,6 +400,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="s2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaFX" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaFX" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="s2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -504,6 +601,70 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaFX" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaFX" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="s2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="enums" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaFX" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaFX" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="s2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -596,9 +757,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaFX" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaFX" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FxClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pojo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1222,7 +1412,9 @@
       <workItem from="1496127988532" duration="2094000" />
       <workItem from="1496130141065" duration="2278000" />
       <workItem from="1496132626756" duration="3167000" />
-      <workItem from="1496137001839" duration="3997000" />
+      <workItem from="1496137001839" duration="4597000" />
+      <workItem from="1496159098306" duration="5446000" />
+      <workItem from="1496177341149" duration="12190000" />
     </task>
     <task id="LOCAL-00001" summary="Осталась валидация, небольшой функционал админки и красоту навести">
       <created>1494805396259</created>
@@ -1235,11 +1427,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="267368000" />
+    <option name="totallyTimeSpent" value="285604000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1252,26 +1444,26 @@
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4811784" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46481177" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42880523" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33224222" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23373677" sideWeight="0.4902507" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852808" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22382398" sideWeight="0.5097493" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32833335" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1324,18 +1516,167 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/s2/src/main/java/controller/ShopRestController.java</url>
-          <line>52</line>
+          <line>68</line>
           <properties />
           <option name="timeStamp" value="107" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/FxClient/src/main/java/WarehouseWindowController.java</url>
-          <line>100</line>
+          <line>154</line>
           <properties />
           <option name="timeStamp" value="112" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/s2/src/main/java/controller/ShopRestController.java</url>
+          <line>75</line>
+          <properties />
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/s2/src/main/java/service/impl/PriductsOnWarehouseServiceImpl.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/s2/src/main/java/service/impl/PriductsOnWarehouseServiceImpl.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/s2/src/main/java/service/impl/PriductsOnWarehouseServiceImpl.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/s2/src/main/java/service/impl/PriductsOnWarehouseServiceImpl.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/s2/src/main/java/service/impl/PriductsOnWarehouseServiceImpl.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/s2/src/main/java/service/impl/PriductsOnWarehouseServiceImpl.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/s2/src/main/java/service/impl/PriductsOnWarehouseServiceImpl.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/s2/src/main/java/service/impl/PriductsOnWarehouseServiceImpl.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/s2/src/main/java/service/impl/PriductsOnWarehouseServiceImpl.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FxClient/src/main/java/WarehouseWindowController.java</url>
+          <line>188</line>
+          <properties />
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FxClient/src/main/java/WarehouseWindowController.java</url>
+          <line>176</line>
+          <properties />
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FxClient/src/main/java/WarehouseWindowController.java</url>
+          <line>186</line>
+          <properties />
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FxClient/src/main/java/OrdersController.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FxClient/src/main/java/OrdersController.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FxClient/src/main/java/OrdersController.java</url>
+          <properties />
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/s2/src/main/java/controller/ShopRestController.java</url>
+          <line>81</line>
+          <properties />
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FxClient/src/main/java/OrdersController.java</url>
+          <line>107</line>
+          <properties />
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FxClient/src/main/java/OrdersController.java</url>
+          <line>100</line>
+          <properties />
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FxClient/src/main/java/OrdersController.java</url>
+          <line>93</line>
+          <properties />
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FxClient/src/main/java/OrdersController.java</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FxClient/src/main/java/OrdersController.java</url>
+          <line>76</line>
+          <properties />
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FxClient/src/main/java/OrdersController.java</url>
+          <line>79</line>
+          <properties />
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FxClient/src/main/java/OrdersController.java</url>
+          <line>116</line>
+          <properties />
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FxClient/src/main/java/OrdersController.java</url>
+          <line>115</line>
+          <properties />
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="113" />
+      <option name="time" value="151" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1344,155 +1685,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/s2/src/main/webapp/WEB-INF/jsp/admin/users.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="24" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/s2/src/main/webapp/WEB-INF/jsp/index/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/s2/src/main/webapp/WEB-INF/root-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/RestController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/LogWork.aj" />
-    <entry file="file://$PROJECT_DIR$/s2/src/main/webapp/WEB-INF/persistence-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/LogWork.java" />
-    <entry file="file://$PROJECT_DIR$/s2/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/service/impl/OrderServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/s2/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/s2/src/main/webapp/WEB-INF/security-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/controller/AccountController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-497">
-          <caret line="51" column="26" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/controller/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="931">
-          <caret line="148" column="58" selection-start-line="148" selection-start-column="58" selection-end-line="148" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FxClient/src/main/resources/fxml/warehouses.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/controller/ProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="85" column="66" selection-start-line="85" selection-start-column="66" selection-end-line="85" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/repository/ProductInOrderRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/service/impl/ProductInOrderServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/service/OrderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/repository/ProductsRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/service/impl/PriductsOnWarehouseServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="21" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FxClient/src/main/java/MainApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/repository/ProductInOrderRepository.java" />
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/service/impl/ProductInOrderServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/service/OrderService.java" />
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/repository/ProductsRepository.java" />
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/service/impl/PriductsOnWarehouseServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/FxClient/src/main/java/pojo/Product.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -1511,92 +1708,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/controller/ShopRestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="56" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/repository/ProductOnWarehousesRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="46" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/service/ProductsOnWarehouseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/model/Warehouse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="29" column="40" selection-start-line="0" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/model/ProductsOnWarehouses.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/model/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="29" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/model/ProductInOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="38" column="6" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/service/WarehouseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/service/impl/WarehouseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="34" column="5" selection-start-line="17" selection-start-column="3" selection-end-line="34" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/model/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="35" selection-start-line="0" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/controller/ShopRestController.java" />
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/repository/ProductOnWarehousesRepository.java" />
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/service/ProductsOnWarehouseService.java" />
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/model/Warehouse.java" />
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/model/ProductsOnWarehouses.java" />
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/model/Product.java" />
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/model/ProductInOrder.java" />
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/service/WarehouseService.java" />
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/service/impl/WarehouseService.java" />
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/model/Order.java" />
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/model/User.java" />
     <entry file="file://$PROJECT_DIR$/FxClient/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -1609,24 +1731,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#596#597#0" expanded="false" />
-            <element signature="e#632#633#0" expanded="false" />
-            <element signature="e#731#732#0" expanded="false" />
-            <element signature="e#763#764#0" expanded="false" />
-            <element signature="e#791#792#0" expanded="false" />
-            <element signature="e#818#819#0" expanded="false" />
-            <element signature="e#855#856#0" expanded="false" />
-            <element signature="e#887#888#0" expanded="false" />
-            <element signature="e#917#918#0" expanded="false" />
-            <element signature="e#946#947#0" expanded="false" />
-            <element signature="e#987#988#0" expanded="false" />
-            <element signature="e#1023#1024#0" expanded="false" />
-            <element signature="e#1061#1062#0" expanded="false" />
-            <element signature="e#1095#1096#0" expanded="false" />
-            <element signature="e#1149#1150#0" expanded="false" />
-            <element signature="e#1195#1196#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1634,30 +1738,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/pom.xml">
+    <entry file="file://$PROJECT_DIR$/s2/src/main/java/service/impl/WarehouseService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="366" column="12" selection-start-line="15" selection-start-column="4" selection-end-line="366" selection-end-column="12" />
-          <folding />
+        <state relative-caret-position="425">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.8.RELEASE/spring-aop-4.3.8.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/s2/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="136" column="48" selection-start-line="136" selection-start-column="48" selection-end-line="136" selection-end-column="48" />
+        <state relative-caret-position="3258">
+          <caret line="199" column="39" selection-start-line="199" selection-start-column="36" selection-end-line="199" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/s2/src/main/java/controller/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        <state relative-caret-position="83">
+          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -1670,55 +1788,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/s2/src/main/java/repository/ProductOnWarehousesRepository.java">
+    <entry file="file://$PROJECT_DIR$/s2/src/main/java/service/impl/ProductServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="107">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/s2/src/main/java/service/impl/WarehouseService.java">
+    <entry file="file://$PROJECT_DIR$/s2/src/main/java/repository/ProductOnWarehousesRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state relative-caret-position="187">
+          <caret line="15" column="89" selection-start-line="15" selection-start-column="89" selection-end-line="15" selection-end-column="89" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s2/src/main/java/service/ProductsOnWarehouseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="13" column="86" selection-start-line="13" selection-start-column="86" selection-end-line="13" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/s2/src/main/java/service/impl/PriductsOnWarehouseServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="440">
+          <caret line="58" column="78" selection-start-line="58" selection-start-column="78" selection-end-line="58" selection-end-column="78" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.8.RELEASE/spring-aop-4.3.8.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class">
+    <entry file="file://$PROJECT_DIR$/s2/src/main/webapp/WEB-INF/persistence-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+        <state relative-caret-position="187">
+          <caret line="20" column="68" selection-start-line="20" selection-start-column="68" selection-end-line="20" selection-end-column="68" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/s2/src/main/java/controller/ShopRestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="53" column="25" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
-          <folding>
-            <element signature="e#1051#1052#0" expanded="true" />
-            <element signature="e#1109#1110#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FxClient/src/main/resources/fxml/currentWarehouse.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+        <state relative-caret-position="258">
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -1726,20 +1843,157 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FxClient/src/main/java/FirstController.java">
+    <entry file="file://$PROJECT_DIR$/FxClient/src/main/resources/fxml/warehouses.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        <state relative-caret-position="68">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FxClient/src/main/java/MainApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s2/src/main/java/model/ProductInOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="49" column="15" selection-start-line="49" selection-start-column="15" selection-end-line="49" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s2/src/main/java/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-125">
+          <caret line="37" column="15" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s2/src/main/java/model/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FxClient/src/main/java/pojo/OrderStatuses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s2/src/main/java/model/enums/OrderStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s2/src/main/java/model/Warehouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s2/src/main/java/model/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-261">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FxClient/src/main/java/WarehouseWindowController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="73" column="33" selection-start-line="73" selection-start-column="33" selection-end-line="73" selection-end-column="33" />
+        <state relative-caret-position="170">
+          <caret line="197" column="13" selection-start-line="189" selection-start-column="12" selection-end-line="197" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s2/src/main/java/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FxClient/src/main/java/pojo/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="47" column="9" selection-start-line="35" selection-start-column="8" selection-end-line="47" selection-end-column="9" />
+          <folding>
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s2/src/main/java/model/ProductsOnWarehouses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-312">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s2/src/main/java/controller/ShopRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="84" column="47" selection-start-line="84" selection-start-column="35" selection-end-line="84" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FxClient/src/main/java/FirstController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FxClient/src/main/resources/fxml/orders.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FxClient/src/main/java/OrdersController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="125" column="71" selection-start-line="125" selection-start-column="71" selection-end-line="125" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3311#3318#0" expanded="true" />
+            <element signature="e#3809#3818#0" expanded="true" />
           </folding>
         </state>
       </provider>

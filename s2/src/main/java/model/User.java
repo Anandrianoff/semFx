@@ -1,6 +1,7 @@
 package model;
 
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 import model.enums.UserRoles;
 import org.hibernate.annotations.Proxy;
@@ -34,10 +35,12 @@ public class User {
     @Enumerated(EnumType.STRING)
     private UserRoles role;
 
+    @JsonIgnore
     @OneToMany(fetch = FetchType.EAGER)
     @JoinColumn(name = "userId")
     private Set<Order> orders = new HashSet<>();
 
+    @JsonIgnore
     @OneToMany(fetch = FetchType.EAGER)
     @JoinColumn(name = "userId")
     public Set<Order> getOrders() {

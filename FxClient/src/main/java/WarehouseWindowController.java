@@ -3,35 +3,26 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
-import javafx.scene.Scene;
+import javafx.geometry.Insets;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
-import javafx.scene.layout.Pane;
-import javafx.scene.text.Text;
-import javafx.stage.Stage;
-import org.apache.http.HttpResponse;
-import org.apache.http.client.entity.UrlEncodedFormEntity;
+import javafx.scene.layout.FlowPane;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
-import org.apache.http.client.methods.HttpPost;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
-import org.apache.http.message.BasicNameValuePair;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import pojo.Product;
 import pojo.Warehouse;
 
 import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.URL;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.ResourceBundle;
 
@@ -44,36 +35,99 @@ public class WarehouseWindowController implements Initializable{
     private Label warehouse;
 
     @FXML
+    private FlowPane pane;
+
+    @FXML
     private ListView<Product> listView;
 
     @FXML
     private TextField amount;
 
     @FXML
-    private Label success;
+    private Label messages;
+    @FXML
+    private TextField movedAmount;
+    @FXML
+    private ListView<Warehouse> warehousesList;
 
     @FXML
     Button btn;
 
-    private List<Warehouse> warehouses;
+    @FXML
+    private Button moveBtn;
+
+    private ObservableList<Warehouse> warehouses;
 
     private ObservableList<Product> products;
 
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+        moveBtn.setDisable(true);
+        pane.setMaxWidth(200);
         btn.setDisable(true);
         products = FXCollections.observableArrayList();
+        warehouses = FXCollections.observableArrayList();
         listView.setItems(products);
         listView.setMaxHeight(250);
+        listView.setMaxWidth(200);
         listView.setOnMouseClicked(new EventHandler<MouseEvent>() {
             @Override
             public void handle(MouseEvent event) {
                 btn.setDisable(false);
+                if(warehousesList.getSelectionModel().getSelectedItem() != null)
+                    moveBtn.setDisable(false);
                 amount.setText(Integer.toString(listView.getSelectionModel().getSelectedItem().getAmount()));
-                success.setText("");
+                messages.setText("");
             }
         });
+        warehousesList.setOnMouseClicked(new EventHandler<MouseEvent>() {
+            @Override
+            public void handle(MouseEvent event) {
+                if(listView.getSelectionModel().getSelectedItem() != null)
+                    moveBtn.setDisable(false);
+            }
+        });
+        warehousesList.setMaxSize(200, 250);
+        warehousesList.setItems(warehouses);
+
+        amount.setMaxWidth(180);
+        warehouse.setMaxWidth(200);
+    }
+
+    public void move(){
+        int amount;
+        try {
+            amount = Integer.parseInt(movedAmount.getText());
+            if(amount < 1)
+                throw new Exception();
+            if(amount > listView.getSelectionModel().getSelectedItem().getAmount()){
+                messages.setText("On this warehouse there are not enough products");
+            }else {
+                int currentAmount = listView.getSelectionModel().getSelectedItem().getAmount();
+                if(currentAmount - amount < 1){
+                    products.remove(listView.getSelectionModel().getSelectedItem());
+                }else {
+                    listView.getSelectionModel().getSelectedItem().setAmount(currentAmount - amount);
+                }
+                Platform.runLater(new Runnable() {
+                    @Override
+                    public void run() {
+                        try {
+                            CloseableHttpClient httpclient = HttpClients.createDefault();
+                            String params = "from="+currentWarehouse.getId()
+                                    + "&to="+warehousesList.getSelectionModel().getSelectedItem().getId()+
+                                    "&amount="+amount+"&prod="+listView.getSelectionModel().getSelectedItem().getId();
+                            HttpGet httpGet = new HttpGet("http://localhost:8080/rest/moveProd?"+params);
+                            CloseableHttpResponse response1 = httpclient.execute(httpGet);
+                            movedAmount.setText("");
+                        }catch (Exception e){}
+                    }
+                });
+            }
+        } catch (Exception e) {
+            messages.setText("Only numbers more than 0");
+        }
     }
 
     public void update(){
@@ -98,8 +152,8 @@ public class WarehouseWindowController implements Initializable{
                         while ((line = rd.readLine()) != null) {
                             result.append(line);
                         }
-                        if(result.toString().contains("success")){
-                            success.setText("Update successed");
+                        if(result.toString().contains("messages")){
+                            messages.setText("Update successed");
                             listView.getSelectionModel().getSelectedItem().setAmount(count);
                         }
 //                        result.append("}");
@@ -162,7 +216,7 @@ public class WarehouseWindowController implements Initializable{
     }
 
     public void setWarehouses(List<Warehouse> warehouses) {
-        this.warehouses = warehouses;
+        this.warehouses.addAll(warehouses);
     }
 
     private Warehouse currentWarehouse;

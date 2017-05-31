@@ -1,5 +1,6 @@
 package model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.hibernate.annotations.Proxy;
 
 import javax.persistence.*;
@@ -21,6 +22,7 @@ public class ProductInOrder {
     @JoinColumn(name = "productId")
     private Product product;
 
+    @JsonIgnore
     @ManyToOne
     @JoinColumn(name = "orderId")
     private Order order;
@@ -45,6 +47,7 @@ public class ProductInOrder {
         this.product = product;
     }
 
+    @JsonIgnore
     @ManyToOne
     @JoinColumn(name = "orderId", insertable=false, updatable=false)
     public Order getOrder() {

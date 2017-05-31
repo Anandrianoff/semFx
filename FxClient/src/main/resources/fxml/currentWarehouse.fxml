@@ -16,12 +16,20 @@
          xmlns:fx="http://javafx.com/fxml">
 
     <FlowPane orientation="HORIZONTAL">
-        <Label fx:id="warehouse" text="qwe" />
-        <FlowPane orientation="VERTICAL">
+
+        <FlowPane orientation="VERTICAL" fx:id="pane">
+            <Label fx:id="warehouse" text="qwe" />
             <ListView fx:id="listView"></ListView>
             <Label text="Amount:"></Label> <TextField fx:id="amount"></TextField>
             <Button fx:id="btn"  text="Update" onAction="#update"></Button>
-            <Label fx:id="success"/>
+            <Label fx:id="messages"/>
+        </FlowPane>
+        <FlowPane orientation="VERTICAL">
+            <Label text="Select warehouse to replace product"/>
+            <ListView fx:id="warehousesList"></ListView>
+            <Label text="Move to warehouse:"/>
+            <TextField fx:id="movedAmount"/>
+            <Button fx:id="moveBtn" onAction="#move" text="move"/>
         </FlowPane>
 
     </FlowPane>
