@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8d915b9-60e0-4579-9340-9b5948207ff5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FxClient/target/classes/FirstController.class" afterPath="$PROJECT_DIR$/FxClient/target/classes/FirstController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/target/InternetShop/WEB-INF/classes/controller/IndexController.class" afterPath="$PROJECT_DIR$/s2/target/InternetShop/WEB-INF/classes/controller/IndexController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/target/InternetShop/WEB-INF/classes/model/ProductInOrder.class" afterPath="$PROJECT_DIR$/s2/target/InternetShop/WEB-INF/classes/model/ProductInOrder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/target/InternetShop/WEB-INF/classes/model/User.class" afterPath="$PROJECT_DIR$/s2/target/InternetShop/WEB-INF/classes/model/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/target/InternetShop/WEB-INF/classes/repository/ProductOnWarehousesRepository.class" afterPath="$PROJECT_DIR$/s2/target/InternetShop/WEB-INF/classes/repository/ProductOnWarehousesRepository.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/target/classes/controller/IndexController.class" afterPath="$PROJECT_DIR$/s2/target/classes/controller/IndexController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/target/classes/model/ProductInOrder.class" afterPath="$PROJECT_DIR$/s2/target/classes/model/ProductInOrder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/target/classes/model/User.class" afterPath="$PROJECT_DIR$/s2/target/classes/model/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/target/classes/repository/ProductOnWarehousesRepository.class" afterPath="$PROJECT_DIR$/s2/target/classes/repository/ProductOnWarehousesRepository.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FxClient/src/main/java/OrdersController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FxClient/src/main/java/pojo/Order.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FxClient/src/main/java/pojo/OrderStatuses.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FxClient/src/main/resources/fxml/orders.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FxClient/target/classes/fxml/warehouses.fxml" afterPath="$PROJECT_DIR$/FxClient/target/classes/fxml/warehouses.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s2/target/InternetShop/WEB-INF/persistence-config.xml" afterPath="$PROJECT_DIR$/s2/target/InternetShop/WEB-INF/persistence-config.xml" />
     </list>
     <ignored path="InternetShop.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -742,36 +735,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaFX" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaFX" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FxClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pojo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -1399,7 +1362,7 @@
       <workItem from="1496132626756" duration="3167000" />
       <workItem from="1496137001839" duration="4597000" />
       <workItem from="1496159098306" duration="5446000" />
-      <workItem from="1496177341149" duration="12387000" />
+      <workItem from="1496177341149" duration="12523000" />
     </task>
     <task id="LOCAL-00001" summary="Осталась валидация, небольшой функционал админки и красоту навести">
       <created>1494805396259</created>
@@ -1415,11 +1378,18 @@
       <option name="project" value="LOCAL" />
       <updated>1496189601989</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add orders">
+      <created>1496189768533</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1496189768533</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="285801000" />
+    <option name="totallyTimeSpent" value="285937000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
