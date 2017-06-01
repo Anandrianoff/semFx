@@ -93,4 +93,9 @@ public class ShopRestController {
                 break;
         }
     }
+
+    @RequestMapping(value = "/rest/login", produces = MediaType.APPLICATION_JSON_VALUE)
+    public String checkLogin(){
+        return "success";
+    }
 }

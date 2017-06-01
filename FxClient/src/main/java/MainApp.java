@@ -16,11 +16,12 @@ public class MainApp extends Application{
     @Override
     public void start(Stage primaryStage) throws Exception {
 
-        String xmlFile = "/fxml/warehouses.fxml";
+        String xmlFile = "/fxml/login.fxml";
         FXMLLoader loader = new FXMLLoader();
         Parent rootNode = (Parent) loader.load(getClass().getResourceAsStream(xmlFile));
         Scene scene = new Scene(rootNode, 400,400);
         primaryStage.setScene(scene);
+        primaryStage.setTitle("Login");
         primaryStage.show();
     }
 }

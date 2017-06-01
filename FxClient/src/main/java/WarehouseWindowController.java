@@ -3,14 +3,20 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.geometry.Insets;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.FlowPane;
+import javafx.stage.Stage;
+import org.apache.commons.codec.binary.Base64;
+import org.apache.http.HttpHeaders;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.CloseableHttpClient;
@@ -18,11 +24,13 @@ import org.apache.http.impl.client.HttpClients;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import pojo.Product;
+import pojo.User;
 import pojo.Warehouse;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.URL;
+import java.nio.charset.Charset;
 import java.util.List;
 import java.util.ResourceBundle;
 
@@ -119,7 +127,16 @@ public class WarehouseWindowController implements Initializable{
                                     + "&to="+warehousesList.getSelectionModel().getSelectedItem().getId()+
                                     "&amount="+amount+"&prod="+listView.getSelectionModel().getSelectedItem().getId();
                             HttpGet httpGet = new HttpGet("http://localhost:8080/rest/moveProd?"+params);
+                            String auth = User.getUsername()+":"+User.getPassword();
+                            byte[] encodedAuth = Base64.encodeBase64(
+                                    auth.getBytes(Charset.forName("ISO-8859-1")));
+                            String authHeader = "Basic " + new String(encodedAuth);
+                            httpGet.setHeader(HttpHeaders.AUTHORIZATION, authHeader);
                             CloseableHttpResponse response1 = httpclient.execute(httpGet);
+                            int statusCode = response1.getStatusLine().getStatusCode();
+                            if(statusCode != 200){
+                                logout();
+                            }
                             movedAmount.setText("");
                         }catch (Exception e){}
                     }
@@ -144,7 +161,16 @@ public class WarehouseWindowController implements Initializable{
                                 + "&prod="+listView.getSelectionModel().getSelectedItem().getId()+
                                 "&amount="+count;
                         HttpGet httpGet = new HttpGet("http://localhost:8080/rest/update?"+params);
+                        String auth = User.getUsername()+":"+User.getPassword();
+                        byte[] encodedAuth = Base64.encodeBase64(
+                                auth.getBytes(Charset.forName("ISO-8859-1")));
+                        String authHeader = "Basic " + new String(encodedAuth);
+                        httpGet.setHeader(HttpHeaders.AUTHORIZATION, authHeader);
                         CloseableHttpResponse response1 = httpclient.execute(httpGet);
+                        int statusCode = response1.getStatusLine().getStatusCode();
+                        if(statusCode != 200){
+                            logout();
+                        }
                         BufferedReader rd = new BufferedReader(new InputStreamReader(response1.getEntity().getContent()));
                         StringBuffer result = new StringBuffer();
 //                        result.append("{\"warehouses\":");
@@ -176,7 +202,17 @@ public class WarehouseWindowController implements Initializable{
         try {
             CloseableHttpClient httpclient = HttpClients.createDefault();
             HttpGet httpGet = new HttpGet("http://localhost:8080/rest/warehouse/" + currentWarehouse.getId());
+
+            String auth = User.getUsername()+":"+User.getPassword();
+            byte[] encodedAuth = Base64.encodeBase64(
+                    auth.getBytes(Charset.forName("ISO-8859-1")));
+            String authHeader = "Basic " + new String(encodedAuth);
+            httpGet.setHeader(HttpHeaders.AUTHORIZATION, authHeader);
             CloseableHttpResponse response1 = httpclient.execute(httpGet);
+            int statusCode = response1.getStatusLine().getStatusCode();
+            if(statusCode != 200){
+                logout();
+            }
             BufferedReader rd = new BufferedReader(new InputStreamReader(response1.getEntity().getContent()));
             StringBuffer result = new StringBuffer();
             result.append("{\"products\":");
@@ -200,6 +236,23 @@ public class WarehouseWindowController implements Initializable{
         }
         catch (Exception e){
             e.printStackTrace();
+        }
+    }
+    public void logout() {
+        User.logout();
+        try {
+            Stage st = new Stage();
+            String xmlFile = "/fxml/login.fxml";
+            FXMLLoader loader = new FXMLLoader();
+            Parent rootNode = (Parent) loader.load(getClass().getResourceAsStream(xmlFile));
+            Scene scene = new Scene(rootNode, 400, 400);
+            st.setScene(scene);
+            st.setTitle("Login");
+            st.show();
+            ((Stage) warehousesList.getScene().getWindow()).close();
+        } catch (Exception e) {
+            e.printStackTrace();
+
         }
     }
 
